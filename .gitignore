@@ -1,0 +1,42 @@
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+Generate_Questions/
+
+# Environment variables
+.env
+.env.*  
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# Ignore client-side secrets
+client/.env
+client/.env.*
+
+# Ignore server-side secrets
+server/.env
+server/.env.*
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
